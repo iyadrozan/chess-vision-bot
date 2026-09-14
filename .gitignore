@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Kalibrasi milik mesin masing-masing (dibuat via --calibrate)
+board.json
+
+# Binary engine (~78MB) — download manual, lihat README
+engines/
+
+# Log & file sementara
+*.log
+/tmp/
